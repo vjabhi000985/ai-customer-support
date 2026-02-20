@@ -21,7 +21,7 @@ app.add_middleware(
 # Gemini API Key
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 # ==============================
 # MEMORY + ANALYTICS STORE
